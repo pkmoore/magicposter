@@ -1,0 +1,238 @@
+\section{Study Instrument and Evaluation}
+\label{SEC:evaluation}
+
+\paragraph{Method}The goal of our study was to judge how effective a non-traditional approach
+could be in teaching novices about our selected attacks.
+Unfortunately, making such a judgment was hampered by
+necessary accommodations
+required by COVID-19 restrictions.
+We adapted our lesson into
+a 90 minute Zoom session and offered it as a optional class during
+a remote-learning computer science summer camp for high school
+students.  This not only limited interaction, but also
+forced changes in how we handled the needed consent and permission forms.
+
+
+We measured improvement in mastery
+of the material
+using
+an  assessment (a portion of which is shown in Table~\ref{fig:assessment})
+consisting of
+12 multiple choice questions (4 for each topic),
+3 Likert-scale survey statements,
+and a free response comments section.
+To best accommodate the student's needs we converted our
+assessment to an online, rather than a paper form we could have distributed
+immediately before and after the session.
+The students were instead
+asked to complete the assessment once before the lesson to
+generate a baseline and once after the lesson to measure improvement
+and gather student opinions.
+Of the 15 students that attended our session, 10 agreed to participate in
+the study and 5 completed it.
+The fall off in study completion can be attributed to
+an inability to
+do the assessment in person and to
+follow up about the post-test.  In spite of these
+challenges, we are able to demonstrate substantial improvement in aggregate
+scores across all assessed topics.
+
+
+
+%All of these materials were reviewed and approved by our university's
+%Institutional Review Board and, though attendance was open to all, we only
+%used data from students who had given us their consent to be part of the
+%study.
+
+
+%They were asked to complete it once
+
+%completed the 12 multiple choice questions twice,
+%once before our lecture to gather a baseline of
+%participants' existing knowledge of the material,
+%and again at the conclusion of our
+%lecture as a post-test to determine if student mastery improved.
+%Both assessments used the same questions.
+%The post-test was handed out at the conclusion of the lesson
+%and students were asked
+%to complete it in their own time.
+
+%to be presented at a summer
+%computer science workshop for high school students.  The session was
+%offered twice during the three week workshop, with the lead investigator
+%serving as the presenter and magician.  It was divided into three phases,
+%one
+%for each topic,
+%and each phase consisted of a performance of the topic's magic
+%trick, followed by a detailed discussion that used the magic trick
+%as a scaffold.  A total of 15 students attended the two sessions.
+
+
+%Given the overwhelmingly
+%positive feedback we received from our session attendees, we believe the
+%decreased number of participants completing the post test can likely
+%be attributed
+%to the awkwardness of an interactive session online
+%rather than deficiencies in
+%the session itself.
+
+
+\begin{table}[h]
+  \scriptsize
+  \begin{tabular}{c | p{6cm}}
+Question Text  &     \\
+\hline
+Q1 & Which of the following is the best definition of social engineering \\
+Q2  & The act of creating a scenario in order to extract information is called:   \\
+Q3 & What of the following pieces of information are dangerous to reveal online?  \\
+Q4  & Bad actors can use stolen personal information to do which of the following: \\
+Q5 & What is a side channel attack?  \\
+Q6  & Which of the following can give you a hint as to what a computer is doing?   \\
+Q7 & What is an example of a common real-world side channel attack? \\
+Q8  & How could you prevent an attacker from stealing a password by using a microphone to listen to keystrokes?\\
+Q9 & Which of the following is a major use of hash functions? \\
+Q10 & Which of the following is an important feature of a good hash function  \\
+Q11 & When passing multiple items sequentially into a hash function, which item has the most influence on the output \\
+Q12 & What is the term used when two or more inputs to a hash function generate the same output? \\
+%\hline
+%S1 & The lesson today increase my knowledge in the areas we covered. \\
+%S2  & The manner in which the material was presented helped me understand the material better\\
+%S3 & I enjoyed the manner in which the material was presented  \\
+\end{tabular}
+\caption{Multiple choice questions used on our assessment.}
+\label{fig:assessment}
+\end{table}
+
+
+
+\begin{table}
+  \centering
+  \scriptsize
+  \begin{tabular}{c | l | l}
+Question &  Correct on Pre-test   & Correct on Post-test \\
+\hline
+Q1   & 3 (60\%)  & 5 (100\%) \\
+Q2   & 3 (60\%)  & 4 (80\%)  \\
+Q3   & 5 (100\%) & 5 (100\%) \\
+Q4   & 2 (40\%)  & 5 (100\%) \\
+\hline
+Q5   & 0 (0\%)   & 0 (0\%)   \\
+Q6   & 5 (100\%) & 5 (100\%) \\
+Q7   & 4 (80\%)  & 5 (100\%) \\
+Q8   & 3 (60\%)  & 5 (100\%) \\
+\hline
+Q9   & 4 (80\%)  & 3 (60\%)  \\
+Q10  & 4 (80\%)  & 4 (80\%)  \\
+Q11  & 1 (20\%)  & 5 (100\%) \\
+Q12  & 2 (40\%)  & 5 (100\%) \\
+\end{tabular}
+
+%\begin{tabular}{ c | l}
+%Statement & Aggregate Responses \\
+%\hline
+%S1 &  Strongly Agree: 4 Agree: 1 \\
+%S2 &  Strongly Agree: 4 Agree: 1 \\
+%S3 &  Strongly Agree: 5 \\
+%\end{tabular}}
+\caption{Aggregate scores for each assessment question. Q1-Q4 covered
+  social engineering, Q5-Q8 covered side channel attacks, and Q9-Q12
+  covered attacks on randomness.}
+%Rows S1, S2, and S3 report number of participants that selected the listed response.  Likert responses that were not chosen by any participant are omitted.
+\label{fig:results}
+\end{table}
+
+\paragraph{Results}
+Aggregate scores increased across all categories on the post-test.
+The results in Table~\ref{fig:results} show scores for the social engineering and attacks on randomness sections
+increased by 30\% while the side channel attacks section increased by
+15\%.
+The improvement in social engineering scores can be traced to
+higher scores on
+Q1, Q2, and Q4,
+indicating a better understanding of the topic.
+Smaller improvements on Q5 and Q9 suggest a need to improve the lesson in
+these specific areas.  We have already made these improvements for future
+sessions.
+Accurate responses to Q11 and Q12
+suggest the students have learned two
+key properties of hash functions.
+Aggregate scores increased across all categories on the post-test.
+
+
+Student offered very positive opinions about the lessons.
+All students
+either ``strongly agreed'' or ``agreed''
+that the lesson improved their skills in the covered topics
+and was enjoyable.
+More than half of students offered free response comments describing the
+session as ``fun,'' ``entertaining,'' and ``interesting.''  One response
+found the side-channel attack using upside-down cards
+was particularly useful.
+
+
+%Encouragingly, the students were well aware of
+%what information should not be shared online suggesting they have been
+%warned about these dangers in other places.
+%The improvements in scores related to attacks on randomness
+%came largely
+%from more
+%These questions are particularly important because
+%correct answers
+%The smallest improvement (15\%) came about in the side channel attacks
+%scores.
+%Small improvements on Q10 scores and no improvement on Q5 and Q9 indicate
+%shortcomings in our lesson.  We have made improvements to related areas of
+%the lesson for future sessions
+
+
+
+%Comparing aggregate pre-test and post-test results show an improvement of
+%AAA\%.  The majority of this improvement came from better scores on the
+%hash function-related questions.  This improvement likely comes from our
+%participant population's lack of experience with the area.  The details of
+%hash functions are likely to be covered in undergraduate course work rather
+%than high-school computer science classes.
+%
+%The next most-improved topic was side channel attacks.  Questions 6 and 7
+%showed a marked improvement from AAA\% correct to BBB\% correct.  Answering
+%these questions correctly requires students to understand the theory
+%behind side
+%channel attacks and apply it to several scenarios to identify the correct
+%response.  As a result,  improved scores on these questions indicate deeper
+%mastery of the material rather than simple memorization of a definition.
+%
+%The questions related to social engineering showed some improvement, though less
+%than the other areas.  This is due to most participants correctly answering
+%these questions on the pre-test.  It is likely students currently
+%attending high school grew up in a time where education about scams and
+%safety on the internet has been ongoing from an early age.
+
+
+\paragraph{Instructor Observations}
+The session's instructor observed that student experience during
+the session was overwhelmingly positive considering
+the difficulties imposed by a remote teaching modality required by COVID-19
+restrictions.
+In a remote setting, camera usage
+and responsiveness are two key indicators of student engagement.
+In both sessions a significant majority of students kept their cameras on
+when participating in a trick, and asking or answering questions
+about the material.
+%Students remained attentive and focused throughout
+% the lesson suggesting that our
+%style of presentation can help maintain attention during a moderately long,
+%technical lecture.
+Students were also
+eager to analyze the
+tricks, put forward hypotheses about how they worked,
+and expand on important aspects of the material.
+Further, students readily volunteered to participate in spite
+of the unusual teaching modality created by a remote presentation,
+along with the general discomfort of being in a
+prominent position ``at the front of class.''
+After the session,
+several
+made
+unprompted verbal statements about how much they enjoyed the
+lesson and how the magic tricks aided their understanding of the
+material.

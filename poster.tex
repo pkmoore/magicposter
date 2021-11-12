@@ -1,0 +1,209 @@
+\documentclass[sigconf]{acmart}
+
+
+\hypersetup{%
+  pdftitle = {Cybersecurity Shuffle: Using Card Magic to Introduce
+  Cybersecurity Concepts},
+  pdfkeywords = {},
+  pdfauthor = { Author One, Author Two},
+  bookmarksnumbered,
+  bookmarksopen=true,
+  colorlinks=true,
+  urlcolor=[rgb]{.35,0,0},
+  linkcolor=[rgb]{.35,0,0},
+  citecolor=[rgb]{.35,0,0},
+  pdfstartview={FitH},
+}
+
+% Remove reference format block for poster proposal
+\settopmatter{printacmref=false}
+
+\setcopyright{acmcopyright}
+\copyrightyear{2022}
+\acmYear{2022}
+\acmDOI{XX.XXXX/XXXXXXX.XXXXXXX}
+
+%% These commands are for a PROCEEDINGS abstract or paper.
+\acmConference[SIGCSE TS '22]{SIGCSE TS '22: ACM Technical Symposium on Computer Science Education}{March 02--05, 2022}{Providence, RI}
+\acmBooktitle{SIGCSE TS '22: ACM Technical Symposium in Computer Science Education,
+  March 02--05, 2022, Providence, RI}
+\acmPrice{15.00}
+\acmISBN{XXX-X-XXXX-XXXX-X/18/06}
+
+
+
+
+\begin{document}
+
+\title{Cybersecurity Shuffle: Using Card Magic to Introduce Cybersecurity
+Concepts}
+
+
+\author{
+  Author One
+}
+\email{authorone@example.com}
+\affiliation{
+  \institution{Anonymous Organization}
+  \city{Anonymous City}
+  \state{Anonymous state}
+  \country{Anonymous Country}
+}
+
+\author{
+  Author Two
+}
+\email{authortwo@example.com}
+\affiliation{
+  \institution{Anonymous Organization}
+  \city{Anonymous City}
+  \state{Anonymous state}
+  \country{Anonymous Country}
+}
+
+
+\input{abstract}
+
+\begin{CCSXML}
+<ccs2012>
+<concept>
+<concept_id>10003456.10003457.10003527.10003531.10003533</concept_id>
+<concept_desc>Social and professional topics~Computer science education</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10003456.10003457.10003527.10003541</concept_id>
+<concept_desc>Social and professional topics~K-12 education</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
+\end{CCSXML}
+
+\ccsdesc[500]{Social and professional topics~Computer science education}
+\ccsdesc[500]{Social and professional topics~K-12 education}
+
+\keywords{Cybersecurity, Cybersecurity Education, Scaffolding, Card Magic}
+
+\maketitle
+
+\section{Introduction / Problem}
+
+When teaching introductory cybersecurity classes,
+it is challenging to explain
+the impact of attacks and the defenses against them to
+students of varying experience levels and educational backgrounds.
+To make this material more approachable,
+we developed three card-magic-based lessons
+designed to explain
+social engineering, side channel attacks, and attacks on
+randomness.
+Our lessons
+emphasize the primary
+features of the concept being taught
+and offer opportunities for student interaction.
+None of the tricks require advanced sleight of hand
+or card manipulation,
+making them easy for any instructor to quickly learn and use.
+
+\section{Background / Related Work}
+The guiding principle of our lessons is scaffolding,
+a technique that uses the familiar as a bridge to
+material that may be beyond a student's current reach~\cite{wood1976role}.
+Our inspiration comes from
+card tricks that have been successfully employed in scaffolding other
+computer science concepts~\cite{bell2009computer, csunplugged,
+garcia2016demystifying, curzon2008engaging}.
+%Garcia et al. have produced three papers describing
+%a wide variety of magic tricks, along with the computer science concepts they
+%can help teach~\cite{garcia2012demystifying,
+%garcia2013demystifying,
+%garcia2016demystifying}.
+%Similarly, Curzon et al. found success explaining computer
+%science concepts to younger students using magic shows~\cite{curzon2008engaging}.
+
+
+\section{Overview / Methods / Results}
+
+We adapted our lessons into a 90 minute Zoom session
+and offered it as an optional class during
+a remote-learning computer science summer camp for high school
+students.
+The students were
+asked to complete an assessment once before the lesson
+and once afterwards lesson in order to measure improvement.
+Following our session, aggregate scores increased by between 15\% and 30\%
+across all topics.
+Instructor observation found the students eager to participate in the
+tricks. Students reported that the lessons increased their mastery of the material
+and described it as ``fun,''
+``entertaining,'' and ``interesting.''
+
+\section{Contributions and Future Work}
+
+The main contributions in this work are as follows:
+
+\begin{itemize}
+
+\item{We create a lesson plan that includes three easy-to-perform magic
+    tricks based on three specific types of attacks}
+
+\item{We provide an evaluation that speaks to the lessons' effectiveness}
+
+\item{We demonstrate an improved ability to answer questions related to the
+    attacks following our lesson}
+
+\item{We discuss future plans to carry out larger, in-person sessions with
+    undergraduate students to explore our lesson's efficacy in that
+        setting}
+
+\end{itemize}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{bibdata}
+
+\newpage
+\section{Context for Reviewers}
+\subsection{Poster Layout}
+The poster of two sections. The first section will present the operative
+steps of each trick and the cybersecurity concept it teaches.  This section
+will consist of graphical illustrations of each step that the presenter
+will use to walk participants through how each trick works.  The goal is to
+leave participants with the ability to perform at least one of the tricks
+in a classroom setting.
+
+The second section of the poster will cover the results of the live
+sessions that were conducted over the summer.  The goal of this section is
+to convey the effectiveness of the lessons taught using the tricks and give
+participants an opportunity to ask questions about methods, results, or the
+experience of teaching a live lesson in the form of a magic show.
+
+
+\subsection{Handouts}
+
+Participants will receive a ``cheat sheet'' describing the operative steps
+of each trick.  The goal of this document is to allow instructors to
+refresh their memory should they wish to use the tricks as part of their
+own lessons.
+
+\subsection{Presenter Background}
+
+The presenter organized and conducted the live sessions that formed the
+basis for this works evaluation.  They are skilled at both executing the
+tricks in a live setting and explaining to participants how the tricks
+work.  They also have a strong cybersecurity and computer science
+background that they use to relate the tricks to their respective
+cybersecurity topics.
+
+\subsection{Participant Engagement}
+
+Rather than standard discussion, the presenter will demonstrate the
+tricks used in this work as part of an abbreviated presentation
+to participants.
+The goal is to show participants trick's impact on an audience so they can
+gain an appreciation for how they help students relate to a topic.
+Along with this presentation, the presenter will
+cover the purpose of each trick and the results of the study conducted as
+part of this work.
+
+
+\end{document}

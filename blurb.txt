@@ -1,0 +1,6 @@
+This session takes a novel approach to exploring three information security
+concepts using card magic.  We use our tricks to demonstrate three common
+security flaws and countermeasures that can be used to prevent them.
+Our lesson teaches skills applicable to real
+world security-sensitive situations in an interactive and approachable fashion.
+No prior information security knowledge is required.
